@@ -1,8 +1,8 @@
 package routers
 
 import (
-	"beeframework/controllers/backend"
-	"beeframework/controllers/frontend"
+	"MarmotCMS/controllers/backend"
+	"MarmotCMS/controllers/frontend"
 
 	"github.com/astaxie/beego"
 )

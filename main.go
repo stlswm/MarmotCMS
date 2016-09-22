@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "beeframework/routers"
+	_ "MarmotCMS/routers"
 
 	"github.com/astaxie/beego"
 )
