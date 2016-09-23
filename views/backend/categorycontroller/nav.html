@@ -1,0 +1,19 @@
+<div class="panel-heading">
+	<div class="text-muted bootstrap-admin-box-title">栏目管理</div>
+</div>
+<div class="bootstrap-admin-panel-content">
+	<ul class="nav nav-tabs">
+	    <li {{if eq .nav_focus 1}}class="active"{{end}}>
+	        <a href="/backend/category/index">栏目列表</a>
+	    </li>
+	    <li {{if eq .nav_focus 2}}class="active"{{end}}>
+	        <a href="/backend/category/addnormal">添加普通栏目</a>
+	    </li>
+	    <li {{if eq .nav_focus 3}}class="active"{{end}}>
+	        <a href="/backend/category/addpage">添加单页网</a>
+	    </li>
+	    <li {{if eq .nav_focus 4}}class="active"{{end}}>
+	        <a href="/backend/category/addouter">添加外链栏目</a>
+	    </li>
+	</ul>
+</div>
